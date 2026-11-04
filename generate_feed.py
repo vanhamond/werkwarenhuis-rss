@@ -1,102 +1,125 @@
 import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from urllib.parse import urljoin
+from datetime import datetime, timezone
 
-HOME_URL = "https://www.zinindenbosch.nl/nl/page/home"
-BASE_URL = "https://www.zinindenbosch.nl"
-OUTPUT_FILE = "feed.xml"
+URL = "https://werkwarenhuis.nl/project_category/actueel/"
+OUTPUT = "feed.xml"
 
 headers = {
-    "User-Agent": "Mozilla/5.0 (compatible; ZinInDenBoschRSS/1.0)"
+    "User-Agent": "Mozilla/5.0 (compatible; WerkwarenhuisRSS/1.0)"
 }
 
-print("Zin in Den Bosch ophalen...")
+print("Werkwarenhuis Actueel ophalen...")
 
-response = requests.get(
-    HOME_URL,
-    headers=headers,
-    timeout=30
-)
+response = requests.get(URL, headers=headers, timeout=30)
 response.raise_for_status()
 
 soup = BeautifulSoup(response.text, "html.parser")
 
-articles = []
-seen = set()
-
-for link in soup.find_all("a", href=True):
-    href = link["href"]
-
-    if "/nl/article/" not in href:
-        continue
-
-    url = urljoin(BASE_URL, href)
-    url = url.split("?")[0].split("#")[0]
-
-    if url in seen:
-        continue
-
-    seen.add(url)
-
-    title = " ".join(
-        link.get_text(" ", strip=True).split()
-    )
-
-    if not title:
-        title = (
-            url.split("/")[-1]
-            .replace("-", " ")
-            .title()
-        )
-
-    articles.append(
-        {
-            "title": title,
-            "url": url
-        }
-    )
-
-print(f"{len(articles)} artikelen gevonden")
-
-if not articles:
-    raise RuntimeError(
-        "Geen artikelen gevonden. "
-        "De structuur van de website is mogelijk gewijzigd."
-    )
-
 fg = FeedGenerator()
 
-fg.id(HOME_URL)
-fg.title("Zin in Den Bosch")
+fg.id(URL)
+fg.title("Werkwarenhuis - Actueel")
 fg.description(
-    "Onofficiele RSS-feed met artikelen van Zin in Den Bosch"
+    "Onofficiele RSS-feed van de actuele agenda van Werkwarenhuis Den Bosch"
 )
-fg.link(
-    href=HOME_URL,
-    rel="alternate"
-)
+fg.link(href=URL, rel="alternate")
 fg.language("nl")
+fg.lastBuildDate(datetime.now(timezone.utc))
 
-for article in articles:
+items = []
+
+# Werkwarenhuis gebruikt project-items voor de actuele agenda.
+# We zoeken eerst naar de afzonderlijke projectblokken.
+selectors = [
+    "article",
+    ".et_pb_portfolio_item",
+    ".project",
+    ".et_pb_post"
+]
+
+for selector in selectors:
+    found = soup.select(selector)
+    if found:
+        items = found
+        print(f"Items gevonden met selector {selector}: {len(items)}")
+        break
+
+# Fallback wanneer de site geen duidelijke article-blokken teruggeeft.
+if not items:
+    print("Geen afzonderlijke projectblokken gevonden.")
+    print("Agenda als één feed-item opslaan.")
+
+    main = (
+        soup.find("main")
+        or soup.find(id="main-content")
+        or soup.body
+    )
+
+    if not main:
+        raise RuntimeError("Agenda-inhoud kon niet worden gevonden.")
+
+    text = " ".join(main.get_text(" ", strip=True).split())
+
     entry = fg.add_entry()
+    entry.id(URL + "#actueel")
+    entry.title("Actuele agenda Werkwarenhuis")
+    entry.link(href=URL)
+    entry.description(text[:4000])
 
-    entry.id(article["url"])
-    entry.title(article["title"])
-    entry.link(
-        href=article["url"]
-    )
+else:
+    added = 0
+    seen = set()
 
-    entry.description(
-        'Lees het volledige artikel op '
-        'Zin in Den Bosch: '
-        f'<a href="{article["url"]}">'
-        f'{article["title"]}</a>'
-    )
+    for i, item in enumerate(items, 1):
 
-fg.rss_file(
-    OUTPUT_FILE,
-    pretty=True
-)
+        title_element = item.find(
+            ["h1", "h2", "h3", "h4"]
+        )
 
-print(f"{OUTPUT_FILE} succesvol aangemaakt")
+        if title_element:
+            title = " ".join(
+                title_element.get_text(" ", strip=True).split()
+            )
+        else:
+            title = ""
+
+        text = " ".join(
+            item.get_text(" ", strip=True).split()
+        )
+
+        # Sla lege of irrelevante blokken over
+        if not text or len(text) < 20:
+            continue
+
+        if not title:
+            title = text[:100]
+
+        link_element = item.find("a", href=True)
+
+        if link_element:
+            link = link_element["href"]
+        else:
+            link = URL
+
+        unique_id = link if link != URL else f"{URL}#item-{i}"
+
+        if unique_id in seen:
+            continue
+
+        seen.add(unique_id)
+
+        entry = fg.add_entry()
+        entry.id(unique_id)
+        entry.title(title)
+        entry.link(href=link)
+        entry.description(text[:4000])
+
+        added += 1
+
+    print(f"{added} agenda-items toegevoegd")
+
+fg.rss_file(OUTPUT, pretty=True)
+
+print("feed.xml voor Werkwarenhuis succesvol aangemaakt")
