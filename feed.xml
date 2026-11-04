@@ -1,114 +1,66 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Zin in Den Bosch</title>
-    <link>https://www.zinindenbosch.nl/nl/page/home</link>
-    <description>Onofficiele RSS-feed met artikelen van Zin in Den Bosch</description>
+    <title>Werkwarenhuis - Actueel</title>
+    <link>https://werkwarenhuis.nl/project_category/actueel/</link>
+    <description>Onofficiele RSS-feed van de actuele agenda van Werkwarenhuis Den Bosch</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>nl</language>
-    <lastBuildDate>Wed, 04 Nov 2026 18:43:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 18:52:44 +0000</lastBuildDate>
     <item>
-      <title>Veelgestelde vragen</title>
-      <link>https://www.zinindenbosch.nl/nl/article/veelgestelde-vragen</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/veelgestelde-vragen"&gt;Veelgestelde vragen&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/veelgestelde-vragen</guid>
+      <title>Vroeg Pieken</title>
+      <link>https://werkwarenhuis.nl/project/vroeg-pieken-15/</link>
+      <description>Vroeg Pieken Zaterdag 19 december 20.00 – 00.30u Meer info en tickets Bij Vroeg Pieken kan je lekker vroeg losgaan op door jou gekozen hitjes, onder een regen van confetti en tussen de opblaasgekte.</description>
+      <guid isPermaLink="false">https://werkwarenhuis.nl/project/vroeg-pieken-15/</guid>
     </item>
     <item>
-      <title>Verblijf &amp; Overnachten</title>
-      <link>https://www.zinindenbosch.nl/nl/article/verblijf-en-overnachten</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/verblijf-en-overnachten"&gt;Verblijf &amp; Overnachten&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/verblijf-en-overnachten</guid>
+      <title>MakersMarkt – kersteditie</title>
+      <link>https://werkwarenhuis.nl/project/makersmarkt-kersteditie/</link>
+      <description>MakersMarkt – kersteditie Zondag 13 december 11.00–18.00 uur Gratis entree bij Van Aken en Social label Lab in het Werkwarenhuis Een dag om werk van makers te zien én te kopen, het verhaal achter de ontwerpen en ontmoetingen met makers. Een markt met bijzondere ontwerpen, handgemaakte producten en originele kerstcadeaus.</description>
+      <guid isPermaLink="false">https://werkwarenhuis.nl/project/makersmarkt-kersteditie/</guid>
     </item>
     <item>
-      <title>Natuur &amp; Ontspannen</title>
-      <link>https://www.zinindenbosch.nl/nl/article/natuur-en-ontspannen</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/natuur-en-ontspannen"&gt;Natuur &amp; Ontspannen&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/natuur-en-ontspannen</guid>
+      <title>Club W EXTRA – Lisa Korver</title>
+      <link>https://werkwarenhuis.nl/project/club-w-extra-lisa-korver/</link>
+      <description>Club W EXTRA – Lisa Korver Zaterdag 12 december 2026 22.30u – 03.30u Tickets Kick off the first edition of CLUB W EXTRA met Lisa Korver als headliner. Amsterdam based DJ and producer Lisa Korver moves between techno, trance, bounce and hard groove. Lisa Korver is quickly becoming one of the defining names in the Dutch electronic scene. Meer DJ’s tijdens deze special edition of CLUB W met headliner Lisa Korver: IZEE AJ Buitendijk Lumine</description>
+      <guid isPermaLink="false">https://werkwarenhuis.nl/project/club-w-extra-lisa-korver/</guid>
     </item>
     <item>
-      <title>Winkelen &amp; Dwalen</title>
-      <link>https://www.zinindenbosch.nl/nl/article/winkelen-en-dwalen</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/winkelen-en-dwalen"&gt;Winkelen &amp; Dwalen&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/winkelen-en-dwalen</guid>
+      <title>Terug naar Toen</title>
+      <link>https://werkwarenhuis.nl/project/terug-naar-toen-8/</link>
+      <description>Terug naar Toen Vrijdag 11 december 2026 20:00 – 01:00 uur Tickets Nog één keer gaat de hele zaal los op de 90’s, 00’s en tijdloze classics die je nog kent van vroeger. We beginnen lekker vroeg, slaan de warming-up over en spelen hit na hit. Trommel je vrienden op en stap in de tijdmachine naar je nostalgische tienerjaren! DJ’s draaien al je favoriete hits van o.a.: Backstreet Boys, Justin Timberlake, Britney Spears, 2 Unlimited, Michael Jackson, DJVT, Charly Lownoise &amp; Mental Theo, Beyoncé, Sean Paul, ABBA, Jennifer Lopez, Vengaboys, Pitbull, Def Rhymz &amp; nog vééél meer!</description>
+      <guid isPermaLink="false">https://werkwarenhuis.nl/project/terug-naar-toen-8/</guid>
     </item>
     <item>
-      <title>Cultuur &amp; Ontdekken</title>
-      <link>https://www.zinindenbosch.nl/nl/article/cultuur-en-ontdekken</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/cultuur-en-ontdekken"&gt;Cultuur &amp; Ontdekken&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/cultuur-en-ontdekken</guid>
+      <title>Boozy Bingo – Moulin rouge</title>
+      <link>https://werkwarenhuis.nl/project/boozy-bingo-moulin-rouge/</link>
+      <description>Boozy Bingo – Moulin rouge Zondag 29 nov 12:30 – 16:30 Tickets Op zondag 29 november stappen we binnen in de wereld van Moulin Rouge . Denk aan fluweelrode gordijnen, fonkelende glitter, champagne, veren, burlesque glamour en een middag vol verleiding, entertainment en natuurlijk de gezelligste Boozy Bingo van Nederland. Verwacht een middag vol Franse allure, heerlijke cocktails, spectaculaire acts, keiharde meezingers en een flinke dosis glitter &amp; glamour.</description>
+      <guid isPermaLink="false">https://werkwarenhuis.nl/project/boozy-bingo-moulin-rouge/</guid>
     </item>
     <item>
-      <title>Historie &amp; Architectuur</title>
-      <link>https://www.zinindenbosch.nl/nl/article/historie-en-architectuur</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/historie-en-architectuur"&gt;Historie &amp; Architectuur&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/historie-en-architectuur</guid>
+      <title>Vintage Treasure Markt</title>
+      <link>https://werkwarenhuis.nl/project/vintage-treasure-markt-12/</link>
+      <description>Vintage Treasure Markt Zondag 8 november Vanaf 11.30u Gratis entree Vind jouw treasure op deze markt met unieke items. Scoor jouw mooiste vintage, kleding, en interieur spullen in het Werkwarenhuis. De markt is open van 11.30 tot 17.00u en de entree is gratis. Kom op tijd om de mooiste treasures te vinden. Met live DJ’s en lekkere hapjes. Die dag is op de verdieping ook de Inspiratiebeurs ‘Blauwe Plek’ van jonge makers gratis te bezoeken.</description>
+      <guid isPermaLink="false">https://werkwarenhuis.nl/project/vintage-treasure-markt-12/</guid>
     </item>
     <item>
-      <title>Familie &amp; Fun</title>
-      <link>https://www.zinindenbosch.nl/nl/article/familie-en-fun</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/familie-en-fun"&gt;Familie &amp; Fun&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/familie-en-fun</guid>
+      <title>Blauwe Plek, inspiratiebeurs</title>
+      <link>https://werkwarenhuis.nl/project/blauwe-plek-inspiratiebeurs/</link>
+      <description>Blauwe Plek, inspiratiebeurs Zondag 8 november 2026 11.00u – 18.00u op de eerste verdieping van het Werkwarenhuis GRATIS ENTREE Een inspiratiebeurs waarbij makers van uiteenlopende kunstdisciplines samenkomen om fascinerende verhalen te vertellen over hun maakproces, en het publiek te inspireren door rauwe, echte kunst te exposeren. Het wordt een terugkerend evenement waar makers de kans krijgen om hun verhaal te vertellen, en iedere bezoeker naar huis gaat met ideeën en nieuwe contacten. Meedoen en meer info via Declan</description>
+      <guid isPermaLink="false">https://werkwarenhuis.nl/project/blauwe-plek-inspiratiebeurs/</guid>
     </item>
     <item>
-      <title>Eten &amp; Drinken</title>
-      <link>https://www.zinindenbosch.nl/nl/article/eten-en-drinken</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/eten-en-drinken"&gt;Eten &amp; Drinken&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/eten-en-drinken</guid>
+      <title>WASGOED clubavond</title>
+      <link>https://werkwarenhuis.nl/project/wasgoed-clubavond/</link>
+      <description>WASGOED clubavond Vrijdag 6 november 22.00u Tickets Een huisfeest maar dan groot WASGOED, WAS GOED!</description>
+      <guid isPermaLink="false">https://werkwarenhuis.nl/project/wasgoed-clubavond/</guid>
     </item>
     <item>
-      <title>addToFavorites Artikelen 10x Must-do: de hoogtepunten in Den Bosch Tips &amp; Toplijstjes De Leukste Hotspots Toeristische informatie</title>
-      <link>https://www.zinindenbosch.nl/nl/article/wat-te-doen-in-den-bosch-hoogtepunten-den-bosch</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/wat-te-doen-in-den-bosch-hoogtepunten-den-bosch"&gt;addToFavorites Artikelen 10x Must-do: de hoogtepunten in Den Bosch Tips &amp; Toplijstjes De Leukste Hotspots Toeristische informatie&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/wat-te-doen-in-den-bosch-hoogtepunten-den-bosch</guid>
-    </item>
-    <item>
-      <title>addToFavorites Artikelen 9x Hidden Gems in Den Bosch De Leukste Hotspots Tips &amp; Toplijstjes</title>
-      <link>https://www.zinindenbosch.nl/nl/article/hidden-gems-in-den-bosch</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/hidden-gems-in-den-bosch"&gt;addToFavorites Artikelen 9x Hidden Gems in Den Bosch De Leukste Hotspots Tips &amp; Toplijstjes&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/hidden-gems-in-den-bosch</guid>
-    </item>
-    <item>
-      <title>addToFavorites Wijn bij Stijn Artikelen 7x Wijnbars in Den Bosch De Leukste Hotspots Tips &amp; Toplijstjes</title>
-      <link>https://www.zinindenbosch.nl/nl/article/de-beste-wijnbars-in-den-bosch</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/de-beste-wijnbars-in-den-bosch"&gt;addToFavorites Wijn bij Stijn Artikelen 7x Wijnbars in Den Bosch De Leukste Hotspots Tips &amp; Toplijstjes&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/de-beste-wijnbars-in-den-bosch</guid>
-    </item>
-    <item>
-      <title>addToFavorites Artikelen 7x Bruine kroegen Uitgelicht Artikel De Leukste Hotspots Tips &amp; Toplijstjes</title>
-      <link>https://www.zinindenbosch.nl/nl/article/bruine-kroegen-in-den-bosch</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/bruine-kroegen-in-den-bosch"&gt;addToFavorites Artikelen 7x Bruine kroegen Uitgelicht Artikel De Leukste Hotspots Tips &amp; Toplijstjes&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/bruine-kroegen-in-den-bosch</guid>
-    </item>
-    <item>
-      <title>addToFavorites Artikelen Wat te doen als het regent? De Leukste Hotspots Tips &amp; Toplijstjes</title>
-      <link>https://www.zinindenbosch.nl/nl/article/zin-in-herfst</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/zin-in-herfst"&gt;addToFavorites Artikelen Wat te doen als het regent? De Leukste Hotspots Tips &amp; Toplijstjes&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/zin-in-herfst</guid>
-    </item>
-    <item>
-      <title>addToFavorites Jostijn Ligtvoet Artikelen 10x Must-Sees tijdens November Music Tips &amp; Toplijstjes</title>
-      <link>https://www.zinindenbosch.nl/nl/article/10x-must-sees-tijdens-november-music</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/10x-must-sees-tijdens-november-music"&gt;addToFavorites Jostijn Ligtvoet Artikelen 10x Must-Sees tijdens November Music Tips &amp; Toplijstjes&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/10x-must-sees-tijdens-november-music</guid>
-    </item>
-    <item>
-      <title>addToFavorites Artikelen Zin in een Borrel Tips &amp; Toplijstjes Uitgelicht Artikel</title>
-      <link>https://www.zinindenbosch.nl/nl/article/zin-om-te-borrelen</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/zin-om-te-borrelen"&gt;addToFavorites Artikelen Zin in een Borrel Tips &amp; Toplijstjes Uitgelicht Artikel&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/zin-om-te-borrelen</guid>
-    </item>
-    <item>
-      <title>Herfst in Den Bosch</title>
-      <link>https://www.zinindenbosch.nl/nl/article/herfst-in-den-bosch</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/herfst-in-den-bosch"&gt;Herfst in Den Bosch&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/herfst-in-den-bosch</guid>
-    </item>
-    <item>
-      <title>Parkeren in Den Bosch</title>
-      <link>https://www.zinindenbosch.nl/nl/article/parkeren-in-den-bosch</link>
-      <description>Lees het volledige artikel op Zin in Den Bosch: &lt;a href="https://www.zinindenbosch.nl/nl/article/parkeren-in-den-bosch"&gt;Parkeren in Den Bosch&lt;/a&gt;</description>
-      <guid isPermaLink="false">https://www.zinindenbosch.nl/nl/article/parkeren-in-den-bosch</guid>
+      <title>Songday live muziek op zondag</title>
+      <link>https://werkwarenhuis.nl/project/songday-live-muziek-op-zondag-2/</link>
+      <description>Songday live muziek op zondag Zondag 1 nov 2026 16:00 – 18:00 Tickets Met een veelgeprezen debuut-EP en twee sterke albums heeft songwriter, zangeres, multi-instrumentalist en producer Mirja Klippel haar plek opgeëist in de alternatieve folkscene. Ze komt van het platteland van Finland en woont nu op het Deense platteland. Haar poëtische liedjes en intieme liveoptredens hebben publiek in heel Europa ontroerd. SongDay doet ze aan samen met haar gitarist Alex Jønsson .</description>
+      <guid isPermaLink="false">https://werkwarenhuis.nl/project/songday-live-muziek-op-zondag-2/</guid>
     </item>
   </channel>
 </rss>
