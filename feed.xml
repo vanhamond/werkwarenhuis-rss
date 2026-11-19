@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>nl</language>
-    <lastBuildDate>Thu, 19 Nov 2026 13:31:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:09:50 +0000</lastBuildDate>
     <item>
       <title>OUD &amp; NEW YORK feest</title>
       <link>https://werkwarenhuis.nl/project/oud-new-york-feest/</link>
@@ -67,6 +67,12 @@
       <link>https://werkwarenhuis.nl/project/boozy-bingo-moulin-rouge/</link>
       <description>Boozy Bingo – Moulin rouge Zondag 29 nov 12:30 – 16:30 Tickets Op zondag 29 november stappen we binnen in de wereld van Moulin Rouge . Denk aan fluweelrode gordijnen, fonkelende glitter, champagne, veren, burlesque glamour en een middag vol verleiding, entertainment en natuurlijk de gezelligste Boozy Bingo van Nederland. Verwacht een middag vol Franse allure, heerlijke cocktails, spectaculaire acts, keiharde meezingers en een flinke dosis glitter &amp; glamour.</description>
       <guid isPermaLink="false">https://werkwarenhuis.nl/project/boozy-bingo-moulin-rouge/</guid>
+    </item>
+    <item>
+      <title>Club W X STOOM</title>
+      <link>https://werkwarenhuis.nl/project/club-w-x-stoom/</link>
+      <description>Club W X STOOM za- 28 november 22.00u – 003.00u Club W x STOOM Met 5 upcoming DJ’s dansen we de nacht in! Gratis entree</description>
+      <guid isPermaLink="false">https://werkwarenhuis.nl/project/club-w-x-stoom/</guid>
     </item>
   </channel>
 </rss>
